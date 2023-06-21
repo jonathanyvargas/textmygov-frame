@@ -7,12 +7,12 @@
 }
 
 #tmg-widget-close-button[type="checkbox"] {
-    content: url('https://support.textmygov.com/wp-content/uploads/2023/04/close-button.png');
+    content: url('tmg-close-button.png');
     appearance: none;
     display: none;
     height: 35px;
 }
 
 #tmg-widget-close-button[type="checkbox"]:checked {
-    content: url('https://support.textmygov.com/wp-content/uploads/2021/04/TextMyGov-medium-TM-logo.png');
+    content: url('TextMyGov-Logo-TM.png');
 }
