@@ -1,5 +1,6 @@
 .tmg-close-button { 
   transition: all .2s ease-in-out; 
+  
 }
 
 .tmg-close-button:hover { 
@@ -10,7 +11,7 @@
     content: url('tmg-green-close-button.png');
     appearance: none;
     display: none;
-    height: 35px;
+    height: 40px;
 }
 
 #tmg-widget-close-button[type="checkbox"]:checked {
