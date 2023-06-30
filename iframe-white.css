@@ -10,7 +10,7 @@
     content: url('tmg-white-close-button.png');
     appearance: none;
     display: none;
-    height: 35px;
+    height: 40px;
 }
 
 #tmg-widget-close-button[type="checkbox"]:checked {
