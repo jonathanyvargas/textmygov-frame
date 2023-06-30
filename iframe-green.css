@@ -7,7 +7,7 @@
 }
 
 #tmg-widget-close-button[type="checkbox"] {
-    content: url('tmg-close-button.png');
+    content: url('tmg-green-close-button.png');
     appearance: none;
     display: none;
     height: 35px;
