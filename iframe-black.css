@@ -1,0 +1,18 @@
+.tmg-close-button { 
+  transition: all .2s ease-in-out; 
+}
+
+.tmg-close-button:hover { 
+  transform: scale(1.1); 
+}
+
+#tmg-widget-close-button[type="checkbox"] {
+    content: url('tmg-black-close-button.png');
+    appearance: none;
+    display: none;
+    height: 35px;
+}
+
+#tmg-widget-close-button[type="checkbox"]:checked {
+    content: url('textmygov-logo-black.png');
+}
