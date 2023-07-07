@@ -1,11 +1,11 @@
 function tmgWidgetClose(){
 
-    var x = document.getElementById("tmg-iframe");
-      if (x.style.display === "none"){
-        x.style.display = "block";
+    var tmgFrame = document.getElementById("tmg-iframe");
+      if (tmgFrame.style.display === "none"){
+        tmgFrame.style.display = "block";
     } 
     else {
-    x.style.display = "none";
+    tmgFrame.style.display = "none";
   }
 }  
 
