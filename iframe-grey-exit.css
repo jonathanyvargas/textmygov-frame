@@ -16,3 +16,7 @@
 #tmg-widget-close-button[type="checkbox"]:checked {
     content: none;
 }
+
+#tmg-iframe {
+   display: none;
+}
