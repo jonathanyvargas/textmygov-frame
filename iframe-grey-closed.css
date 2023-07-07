@@ -16,3 +16,7 @@
 #tmg-widget-close-button[type="checkbox"]:checked {
     content: url('tmg-close-button-grey.png');
 }
+
+#tmg-iframe {
+   display: none;
+}
