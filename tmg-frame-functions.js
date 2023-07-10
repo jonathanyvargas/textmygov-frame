@@ -20,19 +20,17 @@ function tmgWidgetOpen(){
   }
 } 
 
-  function showTmgCloseButton() { 
+  function showTmgCloseButtonGreen() { 
     document.getElementById("tmg-close-button-green").style.display = "inline"; 
-      document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
-        document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
-    document.getElementById("tmg-close-button-grey").style.display = "inline"; 
-      document.getElementById("tmg-close-button-grey-closed").style.display = "inline"; 
-        document.getElementById("tmg-close-button-grey-exit").style.display = "inline"; 
-    document.getElementById("tmg-close-button-white").style.display = "inline"; 
-      document.getElementById("tmg-close-button-white-closed").style.display = "inline"; 
-        document.getElementById("tmg-close-button-white-exit").style.display = "inline"; 
-    document.getElementById("tmg-close-button-black").style.display = "inline"; 
-      document.getElementById("tmg-close-button-black-closed").style.display = "inline"; 
-        document.getElementById("tmg-close-button-black-exit").style.display = "inline"; 
 }
+  setTimeout("showTmgCloseButtonGreen()", 1800); 
 
-setTimeout("showTmgCloseButton()", 1800); 
+  function showTmgCloseButtonGreenClosed() { 
+    document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
+}
+  setTimeout("showTmgCloseButtonGreenClosed()", 1800); 
+
+  function showTmgCloseButtonGreenExit() { 
+    document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
+}
+  setTimeout("showTmgCloseButtonGreenExit()", 1800); 
