@@ -11,7 +11,7 @@ function tmgWidgetClose(){
 
 function tmgWidgetOpen(){
 
-    var tmgFrame = document.getElementById("tmg-iframe-2");
+    var tmgFrame = document.getElementById("tmg-iframe-closed");
       if (tmgFrame.style.display === "block"){
         tmgFrame.style.display = "none";
     } 
