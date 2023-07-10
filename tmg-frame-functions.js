@@ -20,7 +20,6 @@ function tmgWidgetOpen(){
   }
 } 
 
-  function showTmgCloseButton() { 
+        setTimeout(function () {
     document.getElementById("tmg-close-button-green").style.display = "inline"; 
-}
-  setTimeout("showTmgCloseButton()", 1800);
+        }, 1800;
