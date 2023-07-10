@@ -21,7 +21,7 @@ function tmgWidgetOpen(){
 } 
 
   function showTmgCloseButton() { 
-    document.querySelectorAll("#tmg-close-button-green[type="checkbox"], #tmg-close-button-green-closed[type="checkbox"], #tmg-close-button-green-exit[type="checkbox"]").style.display = "inline"; 
+    document.querySelectorAll("#tmg-close-button-green").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButton()", 1800); 
 
