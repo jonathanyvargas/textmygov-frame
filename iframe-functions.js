@@ -1,22 +1,22 @@
 function tmgWidgetClose(){
 
-    var tmgFrame = document.getElementById("tmg-iframe");
-      if (tmgFrame.style.display === "none"){
-        tmgFrame.style.display = "block";
+    var tmgFrameOpen = document.getElementById("tmg-iframe");
+      if (tmgFrameOpen.style.display === "none"){
+        tmgFrameOpen.style.display = "block";
     } 
     else {
-    tmgFrame.style.display = "none";
+    tmgFrameOpen.style.display = "none";
   }
 }  
 
 function tmgWidgetOpen(){
 
-    var tmgFrame = document.getElementById("tmg-iframe-closed");
-      if (tmgFrame.style.display === "block"){
-        tmgFrame.style.display = "none";
+    var tmgFrameClosed = document.getElementById("tmg-iframe-closed");
+      if (tmgFrameClosed.style.display === "block"){
+        tmgFrameClosed.style.display = "none";
     } 
     else {
-    tmgFrame.style.display = "block";
+    tmgFrameClosed.style.display = "block";
   }
 } 
 
