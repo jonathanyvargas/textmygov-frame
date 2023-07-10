@@ -20,8 +20,6 @@ function tmgWidgetOpen(){
   }
 } 
 
-  function showTmgCloseButton() { 
-    document.querySelectorAll("#tmg-close-button-green, #tmg-close-button-grey").style.display = "inline"; 
-}
-  setTimeout("showTmgCloseButton()", 1800); 
-
+setTimeout(function(){
+    var inputs = document.querySelectorAll("#tmg-close-button-green, #tmg-close-button-grey").style.display = "inline";
+},1800)
