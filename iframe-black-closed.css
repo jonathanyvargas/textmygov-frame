@@ -16,7 +16,3 @@
 #tmg-widget-close-button[type="checkbox"]:checked {
     content: url('tmg-close-button-black.png');
 }
-
-#tmg-iframe {
-   display: none;
-}
