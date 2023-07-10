@@ -16,3 +16,4 @@
 #tmg-widget-close-button[type="checkbox"]:checked {
     content: url('textmygov-logo-black.png');
 }
+
