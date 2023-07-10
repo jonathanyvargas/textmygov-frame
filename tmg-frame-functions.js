@@ -21,17 +21,7 @@ function tmgWidgetOpen(){
 } 
 
   function showTmgCloseButtonGreen() { 
-    document.getElementById("tmg-close-button-green").style.display = "inline"; 
+    document.getElementById("tmg-close-button-green tmg-close-button-green-closed tmg-close-button-green-exit").style.display = "inline"; 
 }
-
-  function showTmgCloseButtonGreenClosed() { 
-    document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
-}
-
-  function showTmgCloseButtonGreenExit() { 
-    document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
-}
-
   setTimeout("showTmgCloseButtonGreen()", 1800); 
-  setTimeout("showTmgCloseButtonGreenClosed()", 1800); 
-  setTimeout("showTmgCloseButtonGreenExit()", 1800); 
+
