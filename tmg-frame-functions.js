@@ -30,4 +30,14 @@ function tmgWidgetOpen(){
 }
   setTimeout("showTmgCloseButtonGrey()", 1800);
 
+  function showTmgCloseButtonWhite() { 
+    document.getElementById("tmg-close-button-white").style.display = "inline"; 
+}
+  setTimeout("showTmgCloseButtonWhite()", 1800);
+
+  function showTmgCloseButtonBlack() { 
+    document.getElementById("tmg-close-button-black").style.display = "inline"; 
+}
+  setTimeout("showTmgCloseButtonBlack()", 1800);
+
 
