@@ -23,6 +23,10 @@ function tmgWidgetOpen(){
 
   function showTmgCloseButton() { 
     document.getElementById("tmg-close-button-green").style.display = "inline"; 
-          document.getElementById("tmg-close-button-grey").style.display = "inline"; 
+}
+  setTimeout("showTmgCloseButton()", 1800);
+
+  function showTmgCloseButton() { 
+    document.getElementById("tmg-close-button-grey").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButton()", 1800);
