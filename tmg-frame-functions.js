@@ -20,13 +20,31 @@ function tmgWidgetOpen(){
   }
 } 
 
+  function one(callback) {
+    var x = document.getElementById("tmg-close-button-green");
+    x.style.display = "inline"; 
+    
+    setTimeout(two, 1800);
+  }
+    
+  function two(callback) {  
+    var x = document.getElementById("tmg-close-button-grey");
+    x.style.display = "inline"; 
+    
+    setTimeout(three, 1800);
+  }
+    
+  function three(callback) { 
+    var x = document.getElementById("tmg-close-button-white");
+    x.style.display = "inline"; 
+        
+    setTimeout(four, 1800);
+  }
+    
+  function four(callback) { 
+    var x = document.getElementById("tmg-close-button-black");
+    x.style.display = "inline"; 
+        
+    setTimeout(one, 1800);
+  }
 
-  function showTmgCloseButton() { 
-    document.getElementById("tmg-close-button-green").style.display = "inline"; 
-}
-  setTimeout("showTmgCloseButton()", 1800);
-
-  function showTmgCloseButton() { 
-    document.getElementById("tmg-close-button-grey").style.display = "inline"; 
-}
-  setTimeout("showTmgCloseButton()", 1800);
