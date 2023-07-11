@@ -31,7 +31,7 @@
     /* green iframe */
 
 #tmg-close-button-green[type="checkbox"] {
-    content: url('tmg-close-button-green.png');
+    content: url('close-button-green.png');
     appearance: none;
     display: none;
     height: 45px;
@@ -51,13 +51,13 @@
 }
 
 #tmg-close-button-green-closed[type="checkbox"]:checked {
-    content: url('tmg-close-button-green.png');
+    content: url('close-button-green.png');
 }
 
     /* green exit iframe and button */
 
 #tmg-close-button-green-exit[type="checkbox"] {
-    content: url('tmg-close-button-green.png');
+    content: url('close-button-green.png');
     appearance: none;
     display: none;
     height: 45px;
@@ -74,7 +74,7 @@
     /* grey iframe*/
 
 #tmg-close-button-grey[type="checkbox"] {
-    content: url('tmg-close-button-grey.png');
+    content: url('close-button-grey.png');
     appearance: none;
     display: none;
     height: 45px;
@@ -94,13 +94,13 @@
 }
 
 #tmg-close-button-grey-closed[type="checkbox"]:checked {
-    content: url('tmg-close-button-grey.png');
+    content: url('close-button-grey.png');
 }
 
     /* grey exit iframe and button */
 
 #tmg-close-button-grey-exit[type="checkbox"] {
-    content: url('tmg-close-button-grey.png');
+    content: url('close-button-grey.png');
     appearance: none;
     display: none;
     height: 45px;
@@ -117,7 +117,7 @@
     /* white iframe*/
 
 #tmg-close-button-white[type="checkbox"] {
-    content: url('tmg-close-button-white.png');
+    content: url('close-button-white.png');
     appearance: none;
     display: none;
     height: 45px;
@@ -137,13 +137,13 @@
 }
 
 #tmg-close-button-white-closed[type="checkbox"]:checked {
-    content: url('tmg-close-button-white.png');
+    content: url('close-button-white.png');
 }
 
     /* white exit iframe and button */
 
 #tmg-close-button-white-exit[type="checkbox"] {
-    content: url('tmg-close-button-white.png');
+    content: url('close-button-white.png');
     appearance: none;
     display: none;
     height: 45px;
@@ -158,7 +158,7 @@
     /* black iframe*/
 
 #tmg-close-button-black[type="checkbox"] {
-    content: url('tmg-close-button-black.png');
+    content: url('close-button-black.png');
     appearance: none;
     display: none;
     height: 45px;
@@ -178,13 +178,13 @@
 }
 
 #tmg-close-button-black-closed[type="checkbox"]:checked {
-    content: url('tmg-close-button-black.png');
+    content: url('close-button-black.png');
 }
 
     /* black exit iframe and button */
 
 #tmg-close-button-black-exit[type="checkbox"] {
-    content: url('tmg-close-button-black.png');
+    content: url('close-button-black.png');
     appearance: none;
     display: none;
     height: 45px;
