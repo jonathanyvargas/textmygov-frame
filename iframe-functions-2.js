@@ -20,22 +20,15 @@ function tmgWidgetOpen(){
   }
 } 
 
-setTimeout(function(){
-    var inputs = document.querySelectorAll("#tmg-close-button-green, #tmg-close-button-green-closed, #tmg-close-button-green-exit, #tmg-close-button-grey").style.display = "inline";
-},1800) 
 
-
-
-
-window.addEventListener('DOMContentLoaded', function() { 
 
   function showTmgCloseButtonGreen() { 
     document.getElementById("tmg-close-button-green").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreen()", 1800);
+    
 
-});
-
+    
 window.addEventListener('DOMContentLoaded', function() { 
     
   function showTmgCloseButtonGreenClosed() { 
@@ -45,14 +38,14 @@ window.addEventListener('DOMContentLoaded', function() {
 
 });
 
-window.addEventListener('DOMContentLoaded', function() {  
+    
 
   function showTmgCloseButtonGreenExit() { 
     document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreenExit()", 1800);
 
-});
+
     
   function showTmgCloseButtonGrey() { 
     document.getElementById("tmg-close-button-grey").style.display = "inline"; 
