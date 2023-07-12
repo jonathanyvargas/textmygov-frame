@@ -37,7 +37,7 @@ iframe html style options:
      - <input id="tmg-close-button-white-closed"… (White)
      - <input id="tmg-close-button-black-closed"… (Black)
 
-- Option to change the location of the widget button. Done by changing the button id to the respective location name.
+- Option to change the location of the widget button (within the iframe). Done by changing the button id to the respective location name.
      - <button class="close-button-top-right"… (Top right) - Default
      - <button class="close-button-bottom-right"… (Bottom right)
      - <button class="close-button-top-left"… (Top left
