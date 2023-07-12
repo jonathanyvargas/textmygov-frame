@@ -27,11 +27,15 @@ function tmgWidgetOpen(){
 }
   setTimeout("showTmgCloseButtonGreen()", 1800);
 
+
+document.addEventListener("DOMContentLoaded", function () {
+
   function showTmgCloseButtonGreenClosed() { 
     document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
-      if (style.display === null) return;
+
 }
   setTimeout("showTmgCloseButtonGreenClosed()", 1800);
+});
 
   function showTmgCloseButtonGreenExit() { 
     document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
