@@ -2,7 +2,7 @@
 
 
 
-Custom iframe with TextMyGov branding, built to use in conjunction with the Brizy (https://www.brizy.io/cloud) TextMyGov widget.
+Custom iframe with TextMyGov branding, built to be used in conjunction with the Brizy (https://www.brizy.io/cloud) TextMyGov widget.
 
 This iframe will house the Brizy popup window, which can be grabbed from within the Brizy script after making and publishing the widget in Brizy. 
 
