@@ -1,0 +1,244 @@
+#textmygov-widget {
+  width: 250px;
+  height: 240px;
+  z-index: 1000;
+}
+
+#tmg-iframe {
+  width:100%;
+  height:100%;
+  border: none;
+}
+
+#tmg-iframe-closed {
+  display: none;
+  width:100%;
+  height:100%;
+  border: none;
+}
+
+
+
+  /* button/logo location */
+
+.close-button-top-right { 
+  transition: all .2s ease-in-out; 
+  position: absolute;
+  right: 1%;
+  top: 10%;
+  border: none;
+  background: none;
+}
+
+.close-button-top-right:hover { 
+  transform: scale(1.1); 
+}
+
+.close-button-bottom-right { 
+  transition: all .2s ease-in-out; 
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  border: none;
+  background: none;
+}
+
+.tmg-close-button-bottom-right:hover { 
+  transform: scale(1.1); 
+}
+
+.tmg-close-button-top-left { 
+  transition: all .2s ease-in-out; 
+  position: absolute;
+  left: 1%;
+  top: 10%;
+  border: none;
+  background: none;
+}
+
+.tmg-close-button-top-left:hover { 
+  transform: scale(1.1); 
+}
+
+.tmg-close-button-bottom-left { 
+  transition: all .2s ease-in-out; 
+  position: absolute;
+  left: 1%;
+  bottom: 1%;
+  border: none;
+  background: none;
+}
+
+.tmg-close-button-bottom-left:hover { 
+  transform: scale(1.1); 
+}
+
+
+
+    /* green iframe style options */
+
+    /* green iframe */
+
+#tmg-close-button-green[type="checkbox"] {
+    content: url('close-button-green.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-green[type="checkbox"]:checked {
+    content: url('textmygov-logo.png');
+}
+
+    /* green closed iframe */
+
+#tmg-close-button-green-closed[type="checkbox"] {
+    content: url('textmygov-logo.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-green-closed[type="checkbox"]:checked {
+    content: url('close-button-green.png');
+}
+
+    /* green exit iframe and button */
+
+#tmg-close-button-green-exit[type="checkbox"] {
+    content: url('close-button-green.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-green-exit[type="checkbox"]:checked {
+    content: none;
+}
+
+
+
+    /* grey iframe style options */
+
+    /* grey iframe*/
+
+#tmg-close-button-grey[type="checkbox"] {
+    content: url('close-button-grey.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-grey[type="checkbox"]:checked {
+    content: url('textmygov-logo-grey.png');
+}
+
+    /* grey closed iframe */
+
+#tmg-close-button-grey-closed[type="checkbox"] {
+    content: url('textmygov-logo-grey.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-grey-closed[type="checkbox"]:checked {
+    content: url('close-button-grey.png');
+}
+
+    /* grey exit iframe and button */
+
+#tmg-close-button-grey-exit[type="checkbox"] {
+    content: url('close-button-grey.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-grey-exit[type="checkbox"]:checked {
+    content: none;
+}
+
+
+
+    /* white iframe style options */
+
+    /* white iframe*/
+
+#tmg-close-button-white[type="checkbox"] {
+    content: url('close-button-white.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-white[type="checkbox"]:checked {
+    content: url('textmygov-logo-white.png');
+}
+
+    /* white closed iframe */
+
+#tmg-close-button-white-closed[type="checkbox"] {
+    content: url('textmygov-logo-white.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-white-closed[type="checkbox"]:checked {
+    content: url('close-button-white.png');
+}
+
+    /* white exit iframe and button */
+
+#tmg-close-button-white-exit[type="checkbox"] {
+    content: url('close-button-white.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-white-exit[type="checkbox"]:checked {
+    content: none;
+}
+
+    /* black iframe style options */
+
+    /* black iframe*/
+
+#tmg-close-button-black[type="checkbox"] {
+    content: url('close-button-black.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-black[type="checkbox"]:checked {
+    content: url('textmygov-logo-black.png');
+}
+
+    /* black closed iframe */
+
+#tmg-close-button-black-closed[type="checkbox"] {
+    content: url('textmygov-logo-black.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-black-closed[type="checkbox"]:checked {
+    content: url('close-button-black.png');
+}
+
+    /* black exit iframe and button */
+
+#tmg-close-button-black-exit[type="checkbox"] {
+    content: url('close-button-black.png');
+    appearance: none;
+    display: none;
+    height: 45px;
+}
+
+#tmg-close-button-black-exit[type="checkbox"]:checked {
+    content: none;
+}
