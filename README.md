@@ -38,10 +38,10 @@ iframe html style options:
      - <input id="tmg-close-button-black-closed"… (Black)
 
 - Option to change the location of the widget button (within the iframe). Done by changing the button id to the respective location name.
-     - <button class="close-button-top-right"… (Top right) - Default
-     - <button class="close-button-bottom-right"… (Bottom right)
-     - <button class="close-button-top-left"… (Top left
-     - <button class="close-button-bottom-left"… (Bottom left)
+     - <button class="tmg-close-button-top-right"… (Top right) - Default
+     - <button class="tmg-close-button-bottom-right"… (Bottom right)
+     - <button class="tmg-close-button-top-left"… (Top left
+     - <button class="tmg-close-button-bottom-left"… (Bottom left)
 
 
 
@@ -49,8 +49,8 @@ Instructions: After making widget in Brizy, confirm iframe style options.
     1. Confirm button/logo color (match with brizy widget).
     2. Confirm if they want the widget to exit or leave the logo behind, or if they want the logo to load first.
     1. Widget position: fixed (scroll with page), or absolute (to remain static).
-    2. iframe location: default is bottom: 1%; right: 0%;
-    3. Button location (within iframe): default is <button class="close-button-top-right"….
+    2. iframe location: default is bottom right.
+    3. Button location (within iframe): default is top right.
 (These can all be pre-made options and presented as such. In which case we only need to insert the Brizy popup window link.)
 
 
