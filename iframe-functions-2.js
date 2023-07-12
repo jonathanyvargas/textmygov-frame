@@ -20,13 +20,10 @@ function tmgWidgetOpen(){
   }
 } 
 
+setTimeout(function(){
+    var inputs = document.querySelectorAll("#tmg-close-button-green, #tmg-close-button-green-closed, #tmg-close-button-green-exit, #tmg-close-button-grey").style.display = "inline";
+},1800) 
 
 
-  function showTmgCloseButton() { 
-
-      document.querySelectorAll("#tmg-close-button-green, #tmg-close-button-green-closed, #tmg-close-button-green-exit, #tmg-close-button-grey").style.display = "inline";
-      
-}
-  setTimeout("showTmgCloseButton()", 1800);
 
 
