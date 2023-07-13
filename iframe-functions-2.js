@@ -20,26 +20,31 @@ function tmgWidgetOpen(){
 
 
 
-   setTimeout(() => {
-  function showTmgCloseButtonGreen() { 
-    document.getElementById("tmg-close-button-green").style.display = "inline"; 
+
+  function showTmgCloseButtonGreen() {  
+      if (document.getElementById("tmg-close-button-green")) {
+          .style.display = "inline";
+   }
 }
-}, 1800);
+  setTimeout("showTmgCloseButtonGreen()", 1800);
 
 
-     setTimeout(() => {
+
   function showTmgCloseButtonGreenClosed() { 
-    document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
+   if (document.getElementById("tmg-close-button-green-closed")) {
+       .style.display = "inline"; 
+   }
 }
-}, 1800);
+  setTimeout("showTmgCloseButtonGreen()", 1800);
 
     
-   setTimeout(() => {
+
   function showTmgCloseButtonGreenExit() { 
-    document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
+    if (document.getElementById("tmg-close-button-green-exit")) {
+        .style.display = "inline"; 
+    }
 }
-  setTimeout("showTmgCloseButtonGreenExit()", 1800);
-}, 1800);
+  setTimeout("showTmgCloseButtonGreen()", 1800);
     
   
   function showTmgCloseButtonGrey() { 
