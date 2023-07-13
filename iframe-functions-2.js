@@ -1,5 +1,4 @@
 function tmgWidgetClose(){
-
     var tmgFrameOpen = document.getElementById("tmg-iframe");
       if (tmgFrameOpen.style.display === "none"){
         tmgFrameOpen.style.display = "block";
@@ -10,7 +9,6 @@ function tmgWidgetClose(){
 }  
 
 function tmgWidgetOpen(){
-
     var tmgFrameClosed = document.getElementById("tmg-iframe-closed");
       if (tmgFrameClosed.style.display === "block"){
         tmgFrameClosed.style.display = "none";
@@ -22,12 +20,11 @@ function tmgWidgetOpen(){
 
 
 
+window.addEventListener('DOMContentLoaded', function() {    
   function showTmgCloseButtonGreen() { 
     document.getElementById("tmg-close-button-green").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreen()", 1800);
-    
-
     
 window.addEventListener('DOMContentLoaded', function() {     
   function showTmgCloseButtonGreenClosed() { 
@@ -35,7 +32,6 @@ window.addEventListener('DOMContentLoaded', function() {
 }
   setTimeout("showTmgCloseButtonGreenClosed()", 1800);
 });
-
     
 window.addEventListener('DOMContentLoaded', function() {  
   function showTmgCloseButtonGreenExit() { 
@@ -43,27 +39,27 @@ window.addEventListener('DOMContentLoaded', function() {
 }
   setTimeout("showTmgCloseButtonGreenExit()", 1800);
 });
-
     
+ window.addEventListener('DOMContentLoaded', function() {       
   function showTmgCloseButtonGrey() { 
     document.getElementById("tmg-close-button-grey").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGrey()", 1800);
+});
 
-
-    
+window.addEventListener('DOMContentLoaded', function() {      
   function showTmgCloseButtonGreyClosed() { 
     document.getElementById("tmg-close-button-grey-closed").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreyClosed()", 1800);
-
-
-
+});
+    
+window.addEventListener('DOMContentLoaded', function() {    
   function showTmgCloseButtonGreyExit() { 
     document.getElementById("tmg-close-button-grey-exit").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreyExit()", 1800);
-
+});
 
 
   function showTmgCloseButtonWhite() { 
