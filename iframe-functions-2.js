@@ -20,47 +20,47 @@ function tmgWidgetOpen(){
 
 
 
-window.addEventListener('DOMContentLoaded', function() {    
+   setTimeout(() => {
   function showTmgCloseButtonGreen() { 
     document.getElementById("tmg-close-button-green").style.display = "inline"; 
 }
-  setTimeout("showTmgCloseButtonGreen()", 1800);
- });
+}, 1800);
 
-window.addEventListener('DOMContentLoaded', function() {     
+
+     setTimeout(() => {
   function showTmgCloseButtonGreenClosed() { 
     document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
 }
-  setTimeout("showTmgCloseButtonGreenClosed()", 1800);
-});
+}, 1800);
+
     
-window.addEventListener('DOMContentLoaded', function() {  
+   setTimeout(() => {
   function showTmgCloseButtonGreenExit() { 
     document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreenExit()", 1800);
-});
+}, 1800);
     
- window.addEventListener('DOMContentLoaded', function() {       
+  
   function showTmgCloseButtonGrey() { 
     document.getElementById("tmg-close-button-grey").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGrey()", 1800);
-});
 
-window.addEventListener('DOMContentLoaded', function() {      
+
+    
   function showTmgCloseButtonGreyClosed() { 
     document.getElementById("tmg-close-button-grey-closed").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreyClosed()", 1800);
-});
+
     
-window.addEventListener('DOMContentLoaded', function() {    
+
   function showTmgCloseButtonGreyExit() { 
     document.getElementById("tmg-close-button-grey-exit").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreyExit()", 1800);
-});
+
 
 
   function showTmgCloseButtonWhite() { 
