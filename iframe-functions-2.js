@@ -29,22 +29,20 @@ function tmgWidgetOpen(){
     
 
     
-window.addEventListener('DOMContentLoaded', function() { 
-    
+window.addEventListener('DOMContentLoaded', function() {     
   function showTmgCloseButtonGreenClosed() { 
     document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreenClosed()", 1800);
-
 });
 
     
-
+window.addEventListener('DOMContentLoaded', function() {  
   function showTmgCloseButtonGreenExit() { 
     document.getElementById("tmg-close-button-green-exit").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreenExit()", 1800);
-
+});
 
     
   function showTmgCloseButtonGrey() { 
