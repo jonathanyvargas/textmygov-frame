@@ -20,7 +20,6 @@ function tmgWidgetOpen(){
 
 
 
-
   function showTmgCloseButtonGreen() {  
       Var openGreen = document.getElementById("tmg-close-button-green");
       if (openGreen) {
