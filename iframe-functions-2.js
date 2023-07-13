@@ -21,7 +21,7 @@ function tmgWidgetOpen(){
 
 
   function showTmgCloseButtonGreen() {  
-      Var openGreen = document.getElementById("tmg-close-button-green");
+      var openGreen = document.getElementById("tmg-close-button-green");
       if (openGreen) {
           openGreen.style.display = "inline";
    }
@@ -31,7 +31,7 @@ function tmgWidgetOpen(){
 
 
   function showTmgCloseButtonGreenClosed() { 
-      Var openGreenClosed = document.getElementById("tmg-close-button-green-closed");
+      var openGreenClosed = document.getElementById("tmg-close-button-green-closed");
       if (openGreenClosed) {
           openGreenClosed.style.display = "inline";
    }
@@ -41,7 +41,7 @@ function tmgWidgetOpen(){
     
 
   function showTmgCloseButtonGreenExit() { 
-      Var openGreenExit = document.getElementById("tmg-close-button-green-exit");
+      var openGreenExit = document.getElementById("tmg-close-button-green-exit");
       if (openGreenExit) {
           openGreenExit.style.display = "inline";
    }
