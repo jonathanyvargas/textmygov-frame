@@ -25,7 +25,8 @@ window.addEventListener('DOMContentLoaded', function() {
     document.getElementById("tmg-close-button-green").style.display = "inline"; 
 }
   setTimeout("showTmgCloseButtonGreen()", 1800);
-    
+ });
+
 window.addEventListener('DOMContentLoaded', function() {     
   function showTmgCloseButtonGreenClosed() { 
     document.getElementById("tmg-close-button-green-closed").style.display = "inline"; 
