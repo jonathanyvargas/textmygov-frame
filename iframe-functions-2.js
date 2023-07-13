@@ -22,8 +22,9 @@ function tmgWidgetOpen(){
 
 
   function showTmgCloseButtonGreen() {  
-      if (document.getElementById("tmg-close-button-green")) {
-          .style.display = "inline";
+      Var openGreen = document.getElementById("tmg-close-button-green");
+      if (openGreen) {
+          openGreen.style.display = "inline";
    }
 }
   setTimeout("showTmgCloseButtonGreen()", 1800);
@@ -31,20 +32,22 @@ function tmgWidgetOpen(){
 
 
   function showTmgCloseButtonGreenClosed() { 
-   if (document.getElementById("tmg-close-button-green-closed")) {
-       .style.display = "inline"; 
+      Var openGreenClosed = document.getElementById("tmg-close-button-green-closed");
+      if (openGreenClosed) {
+          openGreenClosed.style.display = "inline";
    }
 }
-  setTimeout("showTmgCloseButtonGreen()", 1800);
+  setTimeout("showTmgCloseButtonGreenClosed()", 1800);
 
     
 
   function showTmgCloseButtonGreenExit() { 
-    if (document.getElementById("tmg-close-button-green-exit")) {
-        .style.display = "inline"; 
-    }
+      Var openGreenExit = document.getElementById("tmg-close-button-green-exit");
+      if (openGreenExit) {
+          openGreenExit.style.display = "inline";
+   }
 }
-  setTimeout("showTmgCloseButtonGreen()", 1800);
+  setTimeout("showTmgCloseButtonGreenExit()", 1800);
     
   
   function showTmgCloseButtonGrey() { 
