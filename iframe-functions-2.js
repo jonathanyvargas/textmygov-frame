@@ -78,7 +78,7 @@ setTimeout("showTmgCloseButtonWhite()", 1800);
 
 function showTmgCloseButtonWhiteClosed() { 
   var openWhiteClosed = document.getElementById("tmg-close-button-white-closed");
-  if (openWhiteClosed {
+  if (openWhiteClosed) {
       openWhiteClosed.style.display = "inline";
   }
 }
