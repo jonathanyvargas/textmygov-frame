@@ -17,8 +17,6 @@
   border: none;
 }
 
-
-
   /* button/logo location */
 
 .tmg-close-button-top-right { 
@@ -73,8 +71,6 @@
   transform: scale(1.1); 
 }
 
-
-
     /* green iframe style options */
 
     /* green iframe */
@@ -116,8 +112,6 @@
     content: none;
 }
 
-
-
     /* grey iframe style options */
 
     /* grey iframe*/
@@ -158,8 +152,6 @@
 #tmg-close-button-grey-exit[type="checkbox"]:checked {
     content: none;
 }
-
-
 
     /* white iframe style options */
 
