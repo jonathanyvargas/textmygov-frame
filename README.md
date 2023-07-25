@@ -51,11 +51,11 @@ Instructions: After making widget in Brizy, confirm iframe style options.
     
     2. Confirm if they want the widget to exit or leave the logo behind, or if they want the logo to load first.
     
-    1. Widget position: fixed (scroll with page), or absolute (to remain static).
+    3. Widget position: fixed (scroll with page), or absolute (to remain static).
     
-    2. iframe location: default is bottom right.
+    4. iframe location: default is bottom right.
     
-    3. Button location (within iframe): default is top right.
+    5. Button location (within iframe): default is top right.
     
 (These can all be pre-made options and presented as such. In which case we only need to insert the Brizy popup window link.)
 
