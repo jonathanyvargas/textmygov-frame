@@ -28,10 +28,6 @@
   background: none;
 }
 
-.tmg-close-button-top-right:hover { 
-  transform: scale(1.1); 
-}
-
 .tmg-close-button-bottom-right { 
   transition: all .2s ease-in-out; 
   position: absolute;
@@ -39,10 +35,6 @@
   bottom: 1%;
   border: none;
   background: none;
-}
-
-.tmg-close-button-bottom-right:hover { 
-  transform: scale(1.1); 
 }
 
 .tmg-close-button-top-left { 
@@ -54,10 +46,6 @@
   background: none;
 }
 
-.tmg-close-button-top-left:hover { 
-  transform: scale(1.1); 
-}
-
 .tmg-close-button-bottom-left { 
   transition: all .2s ease-in-out; 
   position: absolute;
@@ -67,7 +55,7 @@
   background: none;
 }
 
-.tmg-close-button-bottom-left:hover { 
+.tmg-close-button-top-right:hover .tmg-close-button-bottom-right:hover .tmg-close-button-top-left:hover .tmg-close-button-bottom-left:hover { 
   transform: scale(1.1); 
 }
 
