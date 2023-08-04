@@ -5,7 +5,7 @@ function loadTmgCSS(tmgCSS){
       file.setAttribute("href", tmgCSS);
   document.head.appendChild(file);
 }
-loadTmgCSS("https://textmygov.com/wp-content/textmygov-widget-iframe-main/tmg-iframe-stylesheet.css");
+loadTmgCSS("https://jonathanyvargas.github.io/textmygov-widget-iframe/tmg-iframe-stylesheet.css");
 
 function tmgWidgetClose(){
   var tmgFrameOpen = document.getElementById("tmg-iframe");
