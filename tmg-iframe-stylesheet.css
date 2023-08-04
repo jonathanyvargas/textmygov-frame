@@ -55,10 +55,7 @@
   background: none;
 }
 
-.tmg-close-button-top-right:hover,
-.tmg-close-button-bottom-right:hover,
-.tmg-close-button-top-left:hover,
-.tmg-close-button-bottom-left:hover { 
+.tmg-close-button-top-right:hover .tmg-close-button-bottom-right:hover .tmg-close-button-top-left:hover .tmg-close-button-bottom-left:hover { 
   transform: scale(1.1); 
 }
 
