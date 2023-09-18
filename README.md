@@ -63,6 +63,6 @@ Instructions: After making widget in Brizy, confirm iframe style options.
 
 Contact: Jonathan Vargas - jvargas@iworq.com
 
-Github repository link: https://github.com/jonathanyvargas/textmygov-frame
+Github repository link: https://github.com/jonathanyvargas/textmygov-widget-iframe
 
 Preview can be found at Codepen: https://codepen.io/jvargas1/pen/abQmVmd 
